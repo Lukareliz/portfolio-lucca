@@ -1,0 +1,28 @@
+.title-container {
+    height: 100vh;
+    background: rgb(242, 82, 86);
+    background: linear-gradient(90deg, rgba(242, 82, 86, 1) 0%, rgba(243, 149, 99, 1) 100%);
+}
+
+.work-together {
+    height: 150px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-together h3 {
+    font-size: 38px;
+}
+
+.work-together a {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgba(242,82,86,1) 0%, rgba(243,149,99,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
