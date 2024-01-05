@@ -33,7 +33,7 @@
     font-size: 18px;
 }
 
-#nav-container a::after {
+#nav-container .marked-link::after {
     content: "";
     display: flex;
     margin-left: 50%;
@@ -46,6 +46,6 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-#nav-container a:hover::after{
+#nav-container .marked-link:hover::after{
     opacity: 1;
 }

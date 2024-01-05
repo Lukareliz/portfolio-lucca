@@ -1,7 +1,23 @@
+/*INICIO PAGE*/
 .title-container {
     height: 100vh;
     background: rgb(242, 82, 86);
     background: linear-gradient(90deg, rgba(242, 82, 86, 1) 0%, rgba(243, 149, 99, 1) 100%);
+}
+
+.title-container h1 {
+    color: white;
+    font-size: 54px;
+    padding-top: 15%;
+    padding-left: 2%;
+}
+
+.title-container img {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .work-together {
@@ -20,7 +36,7 @@
 
 .work-together a {
     text-decoration: none;
-    background-image: linear-gradient(90deg, rgba(242,82,86,1) 0%, rgba(243,149,99,1) 100%);
+    background-image: linear-gradient(90deg, rgba(242, 82, 86, 1) 0%, rgba(243, 149, 99, 1) 100%);
     -webkit-background-clip: text;
     color: transparent;
     background-clip: text;
