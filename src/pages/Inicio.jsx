@@ -9,7 +9,7 @@ const Inicio = () => {
 		max: 25,
 		speed: 400,
         glare: true,
-        'max-glare': 0.5,
+        'max-glare': 0.5
 	});
     return (
         <main>
