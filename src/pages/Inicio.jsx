@@ -1,16 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoIosArrowDown } from "react-icons/io";
-import VanillaTilt from 'vanilla-tilt';
-
+import { Tilt } from 'react-tilt';
 
 const Inicio = () => {
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-		max: 25,
-		speed: 400,
-        glare: true,
-        'max-glare': 0.5
-	});
+    const defaultOptions = {
+        reverse: false,
+        max: 35,
+        perspective: 1000,
+        scale: 1.1,
+        speed: 1000,
+        transition: true,
+        axis: null,
+        reset: true,
+        easing: "cubic-bezier(.03,.98,.52,.99)",
+    }
     return (
         <main>
             <section className='title-container'>
@@ -27,24 +31,42 @@ const Inicio = () => {
                     <p>Aqui estão meus projetos de open source, eles podem ser encontrados também em meu <a href="https://github.com/Lukareliz" target='_blank'>GitHub</a></p>
                 </div>
                 <div className='project-cards'>
-                    <div className='card'>
+                    <Tilt options={defaultOptions} className='card'>
                         <h4>viveRA</h4>
                         <p>Projeto de realidade aumentada na web.</p>
                         <div className='flags-container'>
                             <span className='flags'>HTML</span>
                             <span className='flags'>Javascript</span>
                         </div>
-                        <Link>Saber mais</Link>
-                    </div>
-                    <div className='card'>
-                        <h4>WiseCare</h4>
-                    </div>
-                    <div className='card'>
-                        <h4>MoonMeta</h4>
-                    </div>
-                    <div className='card'>
-                        <h4>TaskYes</h4>
-                    </div>
+                        <Link to="/projetos">Saber mais</Link>
+                    </Tilt>
+                    <Tilt options={defaultOptions} className='card'>
+                        <h4>viveRA</h4>
+                        <p>Projeto de realidade aumentada na web.</p>
+                        <div className='flags-container'>
+                            <span className='flags'>HTML</span>
+                            <span className='flags'>Javascript</span>
+                        </div>
+                        <Link to="/projetos">Saber mais</Link>
+                    </Tilt>
+                    <Tilt options={defaultOptions} className='card'>
+                        <h4>viveRA</h4>
+                        <p>Projeto de realidade aumentada na web.</p>
+                        <div className='flags-container'>
+                            <span className='flags'>HTML</span>
+                            <span className='flags'>Javascript</span>
+                        </div>
+                        <Link to="/projetos">Saber mais</Link>
+                    </Tilt>
+                    <Tilt options={defaultOptions} className='card'>
+                        <h4>viveRA</h4>
+                        <p>Projeto de realidade aumentada na web.</p>
+                        <div className='flags-container'>
+                            <span className='flags'>HTML</span>
+                            <span className='flags'>Javascript</span>
+                        </div>
+                        <Link to="/projetos">Saber mais</Link>
+                    </Tilt>
                 </div>
             </section>
         </main>

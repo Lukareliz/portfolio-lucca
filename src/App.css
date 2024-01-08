@@ -3,6 +3,7 @@
     height: 100vh;
     background: rgb(242, 82, 86);
     background: linear-gradient(90deg, rgba(242, 82, 86, 1) 0%, rgba(243, 149, 99, 1) 100%);
+    width: 100%;
 }
 
 .title-container h1 {
@@ -67,6 +68,7 @@
     height: 150px;
     background-color: black;
     color: white;
+    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -89,6 +91,7 @@
 /*INICIO - SESSÃO DE PROJETOS*/
 .project-section {
     height: 100vh;
+    width: 100%;
 }
 
 .section-title {
