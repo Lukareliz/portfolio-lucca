@@ -33,40 +33,56 @@ const Inicio = () => {
                 <div className='project-cards'>
                     <Tilt options={defaultOptions} className='card'>
                         <h4>viveRA</h4>
-                        <p>Projeto de realidade aumentada na web.</p>
+                        <p>Projeto desenvolvido para o Setembro Amarelo de 2023, o qual exibia mensagens em realidade aumentada através da câmera do celular.</p>
                         <div className='flags-container'>
                             <span className='flags'>HTML</span>
+                            <span className='flags'>CSS</span>
                             <span className='flags'>Javascript</span>
                         </div>
                         <Link to="/projetos">Saber mais</Link>
                     </Tilt>
                     <Tilt options={defaultOptions} className='card'>
-                        <h4>viveRA</h4>
-                        <p>Projeto de realidade aumentada na web.</p>
+                        <h4>WiseCare</h4>
+                        <p>Projeto desenvolvido para simpósio da USJT. É uma plataforma de cuidadores de idosos que faz conexões entre cuidadores e responsáveis.</p>
                         <div className='flags-container'>
                             <span className='flags'>HTML</span>
+                            <span className='flags'>CSS</span>
                             <span className='flags'>Javascript</span>
+                            <span className='flags'>React.js</span>
+                            <span className='flags'>Springboot</span>
+                            <span className='flags'>MySQL</span>
                         </div>
                         <Link to="/projetos">Saber mais</Link>
                     </Tilt>
                     <Tilt options={defaultOptions} className='card'>
-                        <h4>viveRA</h4>
-                        <p>Projeto de realidade aumentada na web.</p>
+                        <h4>MoonMeta</h4>
+                        <p>Um sistema de envio de SMS através de uma API, afim de notificar os vendedores que bateram suas metas números cadastrados.</p>
                         <div className='flags-container'>
                             <span className='flags'>HTML</span>
-                            <span className='flags'>Javascript</span>
+                            <span className='flags'>CSS</span>
+                            <span className='flags'>React.js</span>
+                            <span className='flags'>Springboot</span>
                         </div>
                         <Link to="/projetos">Saber mais</Link>
                     </Tilt>
                     <Tilt options={defaultOptions} className='card'>
-                        <h4>viveRA</h4>
-                        <p>Projeto de realidade aumentada na web.</p>
+                        <h4>How is the weather?</h4>
+                        <p>Consumo da API Open Weather para exibir as informações climáticas do local buscado pelo usuário através de uma requisição.</p>
                         <div className='flags-container'>
                             <span className='flags'>HTML</span>
+                            <span className='flags'>CSS</span>
                             <span className='flags'>Javascript</span>
                         </div>
                         <Link to="/projetos">Saber mais</Link>
                     </Tilt>
+                </div>
+            </section>
+            <section className="about-section">
+                <div className='section-title'>
+                    <h3>Sobre</h3>
+                    <p>Sou um desenvolvedor front-end com mais de dois anos de experiência em desenvolvimento web através de estágio e projetos. Amo tecnologia e adoro aprender sobre novas ferramentas e linguagens.<br /><br />
+                    Estou graduando em Análise e Desenvolvimento de Sistemas, e estou me especializando em desenvolvimento web.<br /><br />
+                    Acredito que a inovação é a chave principal para cada solução de cada problema, por isso sempre me mantenho atualizado e busco desenvolver a melhor solução possível.</p>
                 </div>
             </section>
         </main>
