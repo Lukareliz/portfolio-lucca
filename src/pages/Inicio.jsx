@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoIosArrowDown } from "react-icons/io";
+import { IoColorPaletteSharp } from "react-icons/io5";
+import { IoCodeSlashSharp } from "react-icons/io5";
+import { IoBulb } from "react-icons/io5";
 import { Tilt } from 'react-tilt';
 
 const Inicio = () => {
@@ -23,7 +26,7 @@ const Inicio = () => {
                 <img src="src/assets/me.png" alt="" />
             </section>
             <div className='work-together'>
-                <h3>Vamos trabalhar <Link>juntos</Link></h3>
+                <h3>Vamos trabalhar <Link to='/contato'>juntos</Link></h3>
             </div>
             <section className='project-section'>
                 <div className='section-title'>
@@ -91,6 +94,29 @@ const Inicio = () => {
                         Estou graduando em Análise e Desenvolvimento de Sistemas, e estou me especializando em desenvolvimento web.<br /><br />
                         Acredito que a inovação é a chave principal para cada solução de cada problema, por isso sempre me mantenho atualizado e busco desenvolver a melhor solução possível.</p>
                 </div>
+                <div className='about-icons'>
+                    <div>
+                        <div className='icon-container'>
+                            <IoColorPaletteSharp className='about-section-icon' />
+                        </div>
+                        <h4>Criar</h4>
+                    </div>
+                    <div>
+                        <div className='icon-container'>
+                            <IoCodeSlashSharp className='about-section-icon' />
+                        </div>
+                        <h4>Codificar</h4>
+                    </div>
+                    <div>
+                        <div className='icon-container'>
+                            <IoBulb className='about-section-icon' />
+                        </div>
+                        <h4>Inovar</h4>
+                    </div>
+
+
+                </div>
+                <Link>Saber mais</Link>
             </section>
         </main>
     )
