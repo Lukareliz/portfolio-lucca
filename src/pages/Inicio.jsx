@@ -4,6 +4,9 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoColorPaletteSharp } from "react-icons/io5";
 import { IoCodeSlashSharp } from "react-icons/io5";
 import { IoBulb } from "react-icons/io5";
+import { IoLogoInstagram } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoGithub } from "react-icons/io5";
 import { Tilt } from 'react-tilt';
 
 const Inicio = () => {
@@ -113,10 +116,56 @@ const Inicio = () => {
                         </div>
                         <h4>Inovar</h4>
                     </div>
-
-
                 </div>
-                <Link>Saber mais</Link>
+                <Link to='/contato'>Saber mais</Link>
+            </section>
+            <section className="contact-section">
+                <div className='contact-section-title'>
+                    <h3>Contato</h3>
+                </div>
+                <div className='contact-elements'>
+                    <div className='contact-form'>
+                        <h4>Envie um e-mail:</h4>
+                        <form action="">
+                            <label htmlFor="nome">Nome:</label>
+                            <input type="text" id='nome' name='nome' placeholder='Digite seu nome' required/>
+
+                            <label htmlFor="email">E-mail:</label>
+                            <input type="email" name="email" id='email' placeholder='Digite seu email' required/>
+
+                            <label htmlFor="assunto">Assunto:</label>
+                            <select name="assuntos" id="assuntos" required>
+                                <option value="-"></option>
+                                <option value="freelance">Freelance</option>
+                                <option value="emprego">Proposta de emprego</option>
+                                <option value="outro">Outro</option>
+                            </select>
+
+                            <label htmlFor="menssagem">Menssagem:</label>
+                            <textarea name="menssagem" id="menssagem" rows="5" placeholder='Digite sua menssagem aqui.' required></textarea>
+
+                            <input type="submit" value="Enviar" id='submit'/>
+                        </form>
+                    </div>
+                    <div className='line'></div>
+                    <div className='contact-info'>
+                        <h4>Mais informações</h4>
+                        <div>
+                            <h5>E-mail:</h5>
+                            <a href="mailto:lyulucca@gmail.com?subject=Contato%20do%20portfolio">lyulucca@gmail.com</a>
+                        </div>
+                        <div>
+                            <h5>Celular:</h5>
+                            <a href="https://wa.me/5513997178614?text=Olá%20Lucca%2c%20eu%20vim%20do%20seu%20portfolio%2e">+55 (13)99717-8614</a>
+                        </div>
+                        <h4>Redes Sociais</h4>
+                        <div>
+                            <div><a href=""><IoLogoLinkedin className='contact-section-icon'/></a></div>
+                            <div><a href=""><IoLogoGithub className='contact-section-icon'/></a></div>
+                            <div><a href=""><IoLogoInstagram className='contact-section-icon'/></a></div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
     )
