@@ -160,10 +160,11 @@
 
 .flags {
     background-color: white;
-    color: #f1695a;
+    color: #80352d;
     border-radius: 15px;
     padding: 5px;
     font-size: 10px;
+    font-weight: 600;
 }
 
 /*INÍCIO - SESSÃO SOBRE*/
@@ -217,7 +218,7 @@
 
 /*INICIO - SESSÃO DE CONTATO*/
 .contact-section {
-    height: 100vh;
+    height: 110vh;
     background-color: black;
     color: white;
 }
