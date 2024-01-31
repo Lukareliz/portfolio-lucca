@@ -242,6 +242,10 @@
     margin-bottom: 20px;
 }
 
+.contact-elements p {
+    margin-bottom: 20px;   
+}
+
 .contact-form {
     width: 30%;
 }
@@ -292,8 +296,8 @@ select {
 }
 
 .contact-section-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .contact-section-icon:hover {

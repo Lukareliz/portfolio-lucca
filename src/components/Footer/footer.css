@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.footer_name {
+    text-align: right;
+}

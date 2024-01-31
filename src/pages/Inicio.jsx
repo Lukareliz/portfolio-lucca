@@ -53,6 +53,7 @@ const Inicio = () => {
         reset: true,
         easing: "cubic-bezier(.03,.98,.52,.99)",
     }
+
     return (
         <main>
             <section className='title-container'>
@@ -190,6 +191,9 @@ const Inicio = () => {
                             <h5>Celular:</h5>
                             <a href="https://wa.me/5513997178614?text=Olá%20Lucca%2c%20eu%20vim%20do%20seu%20portfolio%2e" target='_blank'>+55 (13)99717-8614</a>
                         </div>
+                        <h4>Idiomas</h4>
+                        <p>Português</p>
+                        <p>Inglês</p>
                         <h4>Redes Sociais</h4>
                         <div>
                             <div><a href="https://www.linkedin.com/in/luccanunes/" target='_blank'><IoLogoLinkedin className='contact-section-icon'/></a></div>
