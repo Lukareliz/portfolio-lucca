@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar/Navbar'
+import NavIcon from './components/NavIcon/NavIcon.jsx'
 import Inicio from './pages/Inicio'
 import Projetos from './pages/Projetos'
 import Sobre from './pages/Sobre'
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
     <Navbar />
+    <NavIcon />
     <Routes>
       <Route path='/' element={<Inicio />}/>
       <Route path='/projetos' element={<Projetos />}/>

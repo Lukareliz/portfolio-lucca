@@ -55,6 +55,7 @@ const Inicio = () => {
     }
 
     return (
+        <>
         <main>
             <section className='title-container'>
                 <h1>Desenvolvedor <br />Front-end.</h1>
@@ -204,6 +205,7 @@ const Inicio = () => {
                 </div>
             </section>
         </main>
+        </>
     )
 }
 

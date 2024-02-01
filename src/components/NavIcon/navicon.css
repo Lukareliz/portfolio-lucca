@@ -1,0 +1,52 @@
+.icon_nav{
+    display: none;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon_nav.scrolling{
+    display: block;
+}
+
+.icon_content {
+    display: none;
+    position: fixed;
+    right: 20px;
+    top: 75px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    width: 150px;
+    z-index: 999;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    transition: transform 0.3s;
+}
+
+.icon_content.clicked {
+    display: block;
+}
+
+.icon_content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon_content a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon_content a:hover {
+    color: #f27a5e;
+}
