@@ -65,18 +65,18 @@
 
 /*WORK-TOGETHER BANNER*/
 .work-together {
+    display: flex;
+    align-items: center;
+    text-align: center;
     height: 150px;
     background-color: black;
     color: white;
     width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .work-together h3 {
     font-size: 38px;
+    width: 100%;
 }
 
 .work-together a {
@@ -100,6 +100,7 @@
     align-items: center;
     margin-top: 5%;
     padding: 0 250px;
+    width: 100%;
 }
 
 .section-title h3 {
@@ -170,6 +171,7 @@
 /*INÍCIO - SESSÃO SOBRE*/
 .about-section {
     height: 110vh;
+    width: 100%;
 }
 
 .about-icons {
@@ -219,6 +221,7 @@
 /*INICIO - SESSÃO DE CONTATO*/
 .contact-section {
     height: 110vh;
+    width: 100%;
     background-color: black;
     color: white;
 }
@@ -243,7 +246,7 @@
 }
 
 .contact-elements p {
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .contact-form {
@@ -302,4 +305,109 @@ select {
 
 .contact-section-icon:hover {
     color: #f27a5e;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .title-container h1 {
+        font-size: 44px;
+        padding-top: 15%;
+    }
+
+    .title-container img {
+        left: 70%;
+    }
+
+    .project-section {
+        height: 220vh;
+    }
+
+    .about-section {
+        height: 190vh;
+    }
+
+    .about-section p {
+        width: 150%;
+    }
+
+    .contact-section {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .title-container {
+        height: 50vh;
+    }
+
+    .title-container h1 {
+        font-size: 44px;
+        padding-top: 35%;
+        text-align: center;
+    }
+
+    .arrowDown-icon {
+        position: absolute;
+        left: 40%;
+    }
+
+    .title-container img {
+        display: none;
+    }
+
+    .section-title {
+        padding: 0 20px;
+    }
+
+    .project-section {
+        height: 185vh;
+    }
+
+    .about-section {
+        height: 100vh;
+    }
+
+    .about-section-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-container {
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-icons div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section{
+        height: 120vh;
+    }
+
+    .contact-elements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line {
+        display: block;
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 20px 0;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
 }
