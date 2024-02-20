@@ -19,6 +19,7 @@ const Navbar = () => {
     <nav id="nav-container">
       <Link to="/"><h1>Lucca Nunes</h1></Link>
       <ul>
+        <li><Tilt options={defaultOptions}><Link to="/" className='marked-link'>Inicio</Link></Tilt></li>
         <li><Tilt options={defaultOptions}><Link to="/projetos" className='marked-link'>Projetos</Link></Tilt></li>
         <li><Tilt options={defaultOptions}><Link to="/sobre" className='marked-link'>Sobre</Link></Tilt></li>
         <li><Tilt options={defaultOptions}><Link to="/contatos" className='marked-link'>Contato</Link></Tilt></li>

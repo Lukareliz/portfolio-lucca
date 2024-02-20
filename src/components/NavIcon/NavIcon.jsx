@@ -27,6 +27,7 @@ const NavIcon = () => {
             <IoReorderThree className={`icon_nav ${scrolling ? 'scrolling' : ''}`} onClick={showContent} />
             <div className={`icon_content ${clicked && (window.scrollY > 50) ? 'clicked' : ''}`}>
                 <ul>
+                    <li><Link to="/" onClick={showContent}>Inicio</Link></li>
                     <li><Link to="/projetos" onClick={showContent}>Projetos</Link></li>
                     <li><Link to="/Sobre" onClick={showContent}>Sobre</Link></li>
                     <li><Link to="/Contato" onClick={showContent}>Contato</Link></li>

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import NavIcon from './components/NavIcon/NavIcon.jsx'
 import Inicio from './pages/Inicio'
 import Projetos from './pages/Projetos'
-import Sobre from './pages/Sobre'
+import Sobre from './pages/Sobre.jsx'
 import Contato from './pages/Contato'
 import Footer from './components/Footer/Footer.jsx'
 
