@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 125vh;
+    height: 145vh;
 }
 
 .picture_me img{
@@ -50,6 +50,7 @@
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .tech_container img {
@@ -60,6 +61,10 @@
 @media (max-width: 700px) {
     .title-page-container {
         height: 50vh;
+    }
+
+    .about-page-section {
+        height: 100%;
     }
 
     .text_about {
