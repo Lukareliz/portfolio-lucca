@@ -22,7 +22,7 @@ const Navbar = () => {
         <li><Tilt options={defaultOptions}><Link to="/" className='marked-link'>Inicio</Link></Tilt></li>
         <li><Tilt options={defaultOptions}><Link to="/projetos" className='marked-link'>Projetos</Link></Tilt></li>
         <li><Tilt options={defaultOptions}><Link to="/sobre" className='marked-link'>Sobre</Link></Tilt></li>
-        <li><Tilt options={defaultOptions}><Link to="/contatos" className='marked-link'>Contato</Link></Tilt></li>
+        <li><Tilt options={defaultOptions}><Link to="/contato" className='marked-link'>Contato</Link></Tilt></li>
       </ul>
     </nav>
   )
