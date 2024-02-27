@@ -23,11 +23,12 @@ const Sobre = () => {
           <p>Vamos construir algo incrível juntos!</p>
         </div>
         <div className="tech_container">
-          <img src="/src/assets/techs/html-5.png" alt="" />
-          <img src="/src/assets/techs/css-3.png" alt="" />
-          <img src="/src/assets/techs/js.png" alt="" />
           <img src="/src/assets/techs/react.png" alt="" />
           <img src="/src/assets/techs/node-js.png" alt="" />
+          <img src="/src/assets/techs/js.png" alt="" />
+          <img src="/src/assets/techs/typescript.png" alt="" />
+          <img src="/src/assets/techs/html-5.png" alt="" />
+          <img src="/src/assets/techs/css-3.png" alt="" />
           <img src="/src/assets/techs/sql.png" alt="" />
         </div>
       </section>
