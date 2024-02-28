@@ -53,6 +53,7 @@ const ContactSection = () => {
                         <select name="assuntos" id="assuntos" required onChange={(e) => setAssuntos(e.target.value)}>
                             <option value="-"></option>
                             <option value="freelance">Freelance</option>
+                            <option value="network">Network</option>
                             <option value="emprego">Proposta de emprego</option>
                             <option value="outro">Outro</option>
                         </select>
