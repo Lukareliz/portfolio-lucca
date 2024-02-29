@@ -9,6 +9,7 @@
     color: white;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 999;
 }
 
 .icon_nav.scrolling{

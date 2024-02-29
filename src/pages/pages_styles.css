@@ -63,6 +63,12 @@
     height: 100px;
 }
 
+@media (min-width: 800px) and (max-width: 1000px) {
+    /* ANIMATIONS */
+    .about-page-section {
+        animation: none;
+    }
+}
 
 @media (max-width: 700px) {
     .title-page-container {
@@ -75,5 +81,10 @@
 
     .text_about {
         width: 80%;
+    }
+
+    /* ANIMATIONS */
+    .about-page-section {
+        animation: none;
     }
 }
