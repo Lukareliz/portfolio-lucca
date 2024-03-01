@@ -32,7 +32,7 @@ const Projetos = () => {
               <IoLogoCss3 className='tech_icon' />
               <IoLogoJavascript className='tech_icon' />
             </div>
-            <a href="">Ir para o repositório <FaExternalLinkAlt /></a>
+            <a href="https://github.com/Lukareliz/viveRA" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ const Projetos = () => {
               <IoLogoReact className='tech_icon' />
               <FaJava className='tech_icon' />
             </div>
-            <a href="">Ir para o repositório <FaExternalLinkAlt /></a>
+            <a href="https://github.com/Lukareliz/wise-care" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
           <img src="../src/assets/projects/p2.png" alt="" />
         </div>
@@ -67,7 +67,7 @@ const Projetos = () => {
               <IoLogoReact className='tech_icon' />
               <FaJava className='tech_icon' />
             </div>
-            <a href="">Ir para o repositório <FaExternalLinkAlt /></a>
+            <a href="https://github.com/Lukareliz/MoonMeta" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ const Projetos = () => {
               <IoLogoCss3 className='tech_icon' />
               <IoLogoJavascript className='tech_icon' />
             </div>
-            <a href="">Ir para o repositório <FaExternalLinkAlt /></a>
+            <a href="https://github.com/Lukareliz/how-is-the-weather" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
           <img src="../src/assets/projects/p4.png" alt="" />
         </div>
