@@ -24,7 +24,7 @@
 
     animation: appear 1ms ease-in-out;
     animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+    animation-range: cover 0% cover 30%;
 }
 
 .picture_me img{
@@ -61,6 +61,60 @@
 .tech_container img {
     width: 100px;
     height: 100px;
+}
+
+/* PROJECTS PAGE */
+.project-page-section {
+    height: 100%;
+    padding: 50px 25px 50px 25px;
+}
+
+.project-panel {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 100%;
+
+    animation: appear 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 30%;
+}
+
+.project-page-section img {
+    width: 30%;
+    height: 30%;
+    border-radius: 35px;
+}
+
+.project-panel-content {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 35px;
+}
+
+.project-panel p {
+    text-align: justify;
+}
+
+.project-panel-tech {
+    display: flex;
+    gap: 15px;
+}
+
+.tech_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.project-panel-content a {
+    color: #f27a5e;
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {

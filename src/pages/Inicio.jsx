@@ -58,7 +58,7 @@ const Inicio = () => {
                                 <span className='flags'>CSS</span>
                                 <span className='flags'>Javascript</span>
                                 <span className='flags'>React.js</span>
-                                <span className='flags'>Springboot</span>
+                                <span className='flags'>Java</span>
                                 <span className='flags'>MySQL</span>
                                 <span className='flags'>API</span>
                             </div>
@@ -71,8 +71,9 @@ const Inicio = () => {
                             <div className='flags-container'>
                                 <span className='flags'>HTML</span>
                                 <span className='flags'>CSS</span>
+                                <span className='flags'>Javascript</span>
                                 <span className='flags'>React.js</span>
-                                <span className='flags'>Springboot</span>
+                                <span className='flags'>Java</span>
                                 <span className='flags'>API</span>
                             </div>
                         </Tilt>
