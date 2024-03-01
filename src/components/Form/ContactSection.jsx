@@ -10,28 +10,29 @@ const ContactSection = () => {
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [assuntos, setAssuntos] = useState('');
-    const [menssagem, setMenssagem] = useState('');
+    const [mensagem, setMensagem] = useState('');
 
     function sendEmail(e) {
         const templateParams = {
             from_name: nome,
             email: email,
             subject: assuntos,
-            message: menssagem
+            message: mensagem
         }
 
         e.preventDefault()
         emailjs.send("service_zb63pz9", "template_sj3ldgd", templateParams, "g7c9-dw8Z78bT-pCZ")
             .then((response) => {
                 console.log("Email enviado", response.status);
-                alert("Menssagem enviada com sucesso.")
+                alert("Mensagem enviada com sucesso.")
                 setNome('');
                 setEmail('');
                 setAssuntos('');
-                setMenssagem('');
+                setMensagem('');
+                console.log(nome);
             }, (err) => {
                 console.log("Erro: ", err);
-                alert("Erro ao enviar menssagem.")
+                alert("Erro ao enviar mensagem.")
             })
     }
     return (
@@ -44,13 +45,13 @@ const ContactSection = () => {
                     <h4>Envie um e-mail:</h4>
                     <form onSubmit={sendEmail}>
                         <label htmlFor="nome">Nome:</label>
-                        <input type="text" id='nome' name='nome' placeholder='Digite seu nome' required onChange={(e) => setNome(e.target.value)} />
+                        <input type="text" id='nome' name='nome' value={nome} placeholder='Digite seu nome' required onChange={(e) => setNome(e.target.value)} />
 
                         <label htmlFor="email">E-mail:</label>
-                        <input type="email" name="email" id='email' placeholder='Digite seu email' required onChange={(e) => setEmail(e.target.value)} />
+                        <input type="email" name="email" id='email' value={email} placeholder='Digite seu email' required onChange={(e) => setEmail(e.target.value)} />
 
                         <label htmlFor="assunto">Assunto:</label>
-                        <select name="assuntos" id="assuntos" required onChange={(e) => setAssuntos(e.target.value)}>
+                        <select name="assuntos" id="assuntos" value={assuntos} required onChange={(e) => setAssuntos(e.target.value)}>
                             <option value="-"></option>
                             <option value="Freelance">Freelance</option>
                             <option value="Network">Network</option>
@@ -58,8 +59,8 @@ const ContactSection = () => {
                             <option value="Outro">Outro</option>
                         </select>
 
-                        <label htmlFor="menssagem">Menssagem:</label>
-                        <textarea name="menssagem" id="menssagem" rows="5" placeholder='Digite sua menssagem aqui.' required onChange={(e) => setMenssagem(e.target.value)}></textarea>
+                        <label htmlFor="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" rows="5" value={mensagem} placeholder='Digite sua mensagem aqui.' required onChange={(e) => setMensagem(e.target.value)}></textarea>
 
                         <input type="submit" value="Enviar" id='submit' />
                     </form>
