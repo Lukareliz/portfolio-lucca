@@ -96,7 +96,7 @@ const ContactSection = () => {
                     </div>
                 </div>
             </section>
-            <ToastContainer />
+            <ToastContainer position="top-left"/>
         </>
 
 
