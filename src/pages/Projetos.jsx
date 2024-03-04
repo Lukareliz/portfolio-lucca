@@ -21,7 +21,7 @@ const Projetos = () => {
       <section className='project-page-section'>
 
         <div className='project-panel project1'>
-          <img src="../src/assets/projects/p1.png" alt="" />
+          <img src="/p1.png" alt="" />
           <div className='project-panel-content'>
             <h3>ViveRA</h3>
             <p>Este projeto foi concebido em prol da campanha Setembro Amarelo de 2023. Nele, os usuários tiveram a oportunidade de visualizar mensagens em Realidade Aumentada (RA) ao direcionar a câmera de seus dispositivos móveis para os tokens específicos.</p>
@@ -50,11 +50,11 @@ const Projetos = () => {
             </div>
             <a href="https://github.com/Lukareliz/wise-care" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
-          <img src="../src/assets/projects/p2.png" alt="" />
+          <img src="/p2.png" alt="" />
         </div>
 
         <div className='project-panel project3'>
-          <img src="../src/assets/projects/p3.png" alt="" />
+          <img src="/p3.png" alt="" />
           <div className='project-panel-content'>
             <h3>MoonMeta</h3>
             <p>Neste projeto, o usuário tem a capacidade de enviar mensagens automáticas de SMS para números registrados no banco de dados. Em particular, o SMS consiste em um comunicado informando que o vendedor atingiu sua meta.</p>
@@ -83,7 +83,7 @@ const Projetos = () => {
             </div>
             <a href="https://github.com/Lukareliz/how-is-the-weather" target='_blank'>Ir para o repositório <FaExternalLinkAlt /></a>
           </div>
-          <img src="../src/assets/projects/p4.png" alt="" />
+          <img src="/p4.png" alt="" />
         </div>
       </section>
     </main>

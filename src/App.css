@@ -158,7 +158,7 @@
     color: white;
     padding: 20px;
     margin-bottom: 3%;
-    cursor: url('/src/assets/cursor-click.png'), auto;
+    cursor: url('/cursor-click.png'), auto;
 }
 
 .card h4 {
@@ -243,7 +243,7 @@
     font-size: 25px;
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 701px) and (max-width: 1350px) {
     .title-container h1 {
         font-size: 44px;
         padding-top: 15%;
@@ -274,7 +274,7 @@
 
 @media (max-width: 700px) {
     .title-container {
-        height: 50vh;
+        height: 60vh;
     }
 
     .title-container h1 {

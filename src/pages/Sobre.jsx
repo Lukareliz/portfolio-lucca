@@ -14,7 +14,7 @@ const Sobre = () => {
       </div>
       <section className='about-page-section'>
         <div className="picture_me">
-          <img src="/src/assets/pictureme.png" alt="Foto do Lucca, rapaz pardo, cabelo cacheado, usando óculos redondo." />
+          <img src="/pictureme.png" alt="Foto do Lucca, rapaz pardo, cabelo cacheado, usando óculos redondo." />
         </div>
         <div className='text_about'>
           <p>Olá, sou Lucca Nunes, um entusiasta de tecnologia focado no desenvolvimento Front-end. Minha jornada profissional é marcada pela expertise em React.JS, Node.JS, JavaScript e TypeScript. Tenho um compromisso sólido com a qualidade, evidenciado pelo meu conhecimento em testes, metodologias ágeis, e implementação eficiente de CI/CD.</p>
@@ -23,13 +23,13 @@ const Sobre = () => {
           <p>Vamos construir algo incrível juntos!</p>
         </div>
         <div className="tech_container">
-          <img src="/src/assets/techs/react.png" alt="" />
-          <img src="/src/assets/techs/node-js.png" alt="" />
-          <img src="/src/assets/techs/js.png" alt="" />
-          <img src="/src/assets/techs/typescript.png" alt="" />
-          <img src="/src/assets/techs/html-5.png" alt="" />
-          <img src="/src/assets/techs/css-3.png" alt="" />
-          <img src="/src/assets/techs/sql.png" alt="" />
+          <img src="/react.png" alt="" />
+          <img src="/node-js.png" alt="" />
+          <img src="/js.png" alt="" />
+          <img src="/typescript.png" alt="" />
+          <img src="/html-5.png" alt="" />
+          <img src="/css-3.png" alt="" />
+          <img src="/sql.png" alt="" />
         </div>
       </section>
     </main>

@@ -117,7 +117,7 @@
     color: #f27a5e;
 }
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 701px) and (max-width: 1000px) {
     /* ANIMATIONS */
     .about-page-section {
         animation: none;

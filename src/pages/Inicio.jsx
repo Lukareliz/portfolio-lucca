@@ -27,7 +27,7 @@ const Inicio = () => {
             <section className='title-container'>
                 <h1>Desenvolvedor <br />Front-end.</h1>
                 <IoIosArrowDown className='arrowDown-icon shake-vertical' />
-                <img src="src/assets/me.png" alt="" />
+                <img src="/me.png" alt="" />
             </section>
             <div className='work-together'>
                 <h3>Vamos trabalhar <Link to='/contato'>juntos</Link></h3>
@@ -41,7 +41,7 @@ const Inicio = () => {
                     <Link to='/projetos'>
                         <Tilt options={defaultOptions} className='card'>
                             <h4>viveRA</h4>
-                            <img src="../src/assets/projects/p1.png" alt="" />
+                            <img src="/p1.png" alt="" />
                             <div className='flags-container'>
                                 <span className='flags'>HTML</span>
                                 <span className='flags'>CSS</span>
@@ -52,7 +52,7 @@ const Inicio = () => {
                     <Link to='/projetos'>
                         <Tilt options={defaultOptions} className='card'>
                             <h4>WiseCare</h4>
-                            <img src="../src/assets/projects/p2.png" alt="" />
+                            <img src="/p2.png" alt="" />
                             <div className='flags-container'>
                                 <span className='flags'>HTML</span>
                                 <span className='flags'>CSS</span>
@@ -67,7 +67,7 @@ const Inicio = () => {
                     <Link to='/projetos'>
                         <Tilt options={defaultOptions} className='card'>
                             <h4>MoonMeta</h4>
-                            <img src="../src/assets/projects/p3.png" alt="" />
+                            <img src="/p3.png" alt="" />
                             <div className='flags-container'>
                                 <span className='flags'>HTML</span>
                                 <span className='flags'>CSS</span>
@@ -81,7 +81,7 @@ const Inicio = () => {
                     <Link to='/projetos'>
                         <Tilt options={defaultOptions} className='card'>
                             <h4>Weather</h4>
-                            <img src="../src/assets/projects/p4.png" alt="" />
+                            <img src="/p4.png" alt="" />
                             <div className='flags-container'>
                                 <span className='flags'>HTML</span>
                                 <span className='flags'>CSS</span>
