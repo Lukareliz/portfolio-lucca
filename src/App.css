@@ -243,7 +243,7 @@
     font-size: 25px;
 }
 
-@media (min-width: 701px) and (max-width: 1350px) {
+@media (min-width: 630px) and (max-width: 1350px) {
     .title-container h1 {
         font-size: 44px;
         padding-top: 15%;
@@ -272,7 +272,7 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .title-container {
         height: 60vh;
     }
