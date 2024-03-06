@@ -1,7 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=82aaff&height=120&section=header"/>
 
 # Meu Portfólio
-Este é o repositóprio do meu Portfólio.
+Este é o repositóprio do meu Portfólio. Acesse: https://luccanunes.vercel.app/
 
 # Sobre o projeto:
 O portfólio foi desenvolvido em React.js e para o envio de email foi utilizado uma ferramenta chamada emailJS. Além disso, utilizei algumas libs para elementos visuais como TiltJS e Toastify que são resposáveis pelo efeito dos cards e notificação de envio. As animações de scroll foram feitas com CSS.
